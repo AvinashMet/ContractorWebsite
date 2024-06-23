@@ -1,2 +1,2 @@
 # ContractorWebsite
-making website for construction work display for (Dattu Sanap)
+making website for contractor works display and information about them. (Dattu Sanap)
