@@ -1,47 +1,40 @@
-<<<<<<< HEAD
-#tapestrip {
-    background-color: rgb(255, 222, 7);
-    height: 20px;
-    width: 1500px;
-    text-align: center;
-    padding-top: 10px;
-    
-=======
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.tapestrip
-{
-    height: 25px;
-    width: 90%;
-    background-color: rgb(236, 202, 5);
-    margin-left: 50px;
-    margin-top: 20px;
-    color: rgb(16, 16, 70);
-    text-transform: capitalize;
-    display:flex;
-    position:fixed;
-}
-
-a {
-    margin: 6px 40px;
-    text-decoration : none;
-}
-
-.homepage {
-    background-image: url(locations.png);
-    /* margin-top: 170px; */
-    height: 600px;
-    width: 1200px;
+/* setting background image */
+.landpage {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
-    display: flex;
-}
-.title {
+    /* background-position: center; */
+    background-image: linear-gradient(to left, transparent, rgba(0, 18, 65, 0.87)), url(/DattuSanap/image/bg2.jpg);
+    background-color: rgba(0, 0, 255, 0.7);
+    /* position to fix position of bg img and do not affect from its child property 
+    types-  flex, absolute, static, relative, fixed, sticky*/
+    position: relative;
+
+}   
+/* css for navbar */
+nav {
+    background-color: rgba(255, 251, 1, 0.699);
     height: 40px;
-    width: 400px;
-    color: rgb(130, 25, 201);
-    text-align: justify;
-    margin: 200px 150px;
->>>>>>> 3247411ade90c3c2510070dd06810daf80690f64
+    width: 100%;
+    margin-top: 25px;
+    font-size: 25px;
+    position: fixed;
+    text-align: center;
+}
+
+nav a {
+    margin-right: 40px;
+}
+
+
+
+.landpage img {
+    margin-top: 200px;
+    margin-left: 70px;
+    position: relative;
 }
