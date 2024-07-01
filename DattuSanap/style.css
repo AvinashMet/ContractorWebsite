@@ -1,45 +1,8 @@
-<<<<<<< HEAD
 *{
-    margin: 0px;
-    padding: 0px;
-}
-.tapestrip
-{
-    height: 25px;
-    width: 90%;
-    background-color: rgb(236, 202, 5);
-    margin-left: 50px;
-    margin-top: 20px;
-    color: rgb(16, 16, 70);
-    text-transform: capitalize;
-    display:flex;
-    position:fixed;
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    margin: 6px 40px;
-    text-decoration : none;
-}
-
-.homepage {
-    background-image: url(locations.png);
-    /* margin-top: 170px; */
-    height: 600px;
-    width: 1200px;
-    background-repeat: no-repeat;
-    display: flex;
-}
-.title {
-    height: 40px;
-    width: 400px;
-    color: rgb(130, 25, 201);
-    text-align: justify;
-    margin: 200px 150px;
-=======
-* {
-    margin: 0px;
-    padding: 0px;
-}
 /* setting background image */
 .landpage {
     background-size: cover;
@@ -69,11 +32,8 @@ nav a {
     margin-right: 40px;
 }
 
-
-
 .landpage img {
     margin-top: 200px;
     margin-left: 70px;
     position: relative;
->>>>>>> eb0136321b86418c654db31a49412fb37a644a41
 }
