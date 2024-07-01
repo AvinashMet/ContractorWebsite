@@ -23,17 +23,22 @@ nav {
     height: 40px;
     width: 100%;
     margin-top: 25px;
-    font-size: 25px;
     position: fixed;
     text-align: center;
 }
 
 nav a {
     margin-right: 40px;
+    font-size: 20px;
+    /* display to make freely move object in that div class use inline block property  */
+    display: inline-block;
 }
 
-.landpage img {
+.landpage div  {
+    display: inline;
+}   
+
+#logo {
     margin-top: 200px;
     margin-left: 70px;
-    position: relative;
 }
