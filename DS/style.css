@@ -1,0 +1,35 @@
+.title {
+    height: auto;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border: 1px dotted red;
+}
+.div1 {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    color: blue;
+    display: inline-block;
+    position: absolute;
+
+}
+.div2 {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    color: blueviolet;
+    display: inline-block;
+    position: relative;
+    left: 38px;
+}
+.div3 {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    color: tomato;
+    position: relative;
+    left: 38px;
+    /* display: inline-block; */
+}
