@@ -34,7 +34,7 @@
 
 .landpage nav a:hover {
     background-color: rgba(233, 216, 30, 0.763);
-    border-radius: 20%;
+    border-radius: 10px;
 }
 
 .title {
