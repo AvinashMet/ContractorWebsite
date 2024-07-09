@@ -5,8 +5,8 @@
 
 .landpage {
     background: linear-gradient(to right, rgba(14, 24, 117, 0.9), rgba(14, 2, 90, 0.64), transparent), url(/DattuSanap/image/bg2.jpg);
-    background-image: cover;
-    height: 700px;
+    background-size: cover;
+    height: 600px;
     width: 100vw;
     background-repeat: no-repeat;
     display: flex;
@@ -16,7 +16,7 @@
 
 .landpage nav {
     width: 100vw;
-    height: 60px;
+    height: 50px;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -48,16 +48,16 @@
 .title {
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .title img {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     margin-right : 20px;
     margin-left : 100px;
 }
 .title h1 {
-    font-size: 100px;
+    font-size: 70px;
 }
 .name {
     color: rgb(167 173 253);
@@ -67,15 +67,15 @@
     
 }
 .ent {
-    font-size: 40px;
-    width: 520px;
+    font-size: 25px;
+    width: 360px;
     border-top: 4px solid rgb(167 173 253);
     border-bottom: 4px solid rgb(167 173 253);
     margin-bottom: 20px;
     text-align: center;
 }
 .tagline {
-    font-size: 30px;
+    font-size: 22px;
 }
 .gov {
     background-color: rgb(255, 183, 0);
@@ -83,9 +83,10 @@
     position: absolute;
     height: 40px;
     width: 50vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     justify-content: center;
-    top: 680px;
+    align-items: center;
+    top: 580px;
     left: 25%;
     border-radius: 20px;
     
@@ -99,12 +100,19 @@
     top: -70px;
     border-radius: 50%;
     font-size: smaller;
-    /* background: url(/DattuSanap/image/logo.png);
-    background-size: cover; */
+    background: url(/DattuSanap/image/logo.png);
+    background-size: cover;
 }
 .achivement {
-    height: 700px;
+    height: 600px;
     width: 100vw;
     background: linear-gradient(#e0ecef, #848f92);
     display: flex;
+}
+.poster {
+    height: 400px;
+    width: 550px;
+    border: 1px solid black;
+    transform: translate(15%, 35%);
+    
 }
